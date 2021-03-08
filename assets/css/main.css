@@ -2280,7 +2280,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			/* font-family: 'Font Awesome 5 Free'; */
 			font-weight: 400;
 		}
 
@@ -2293,35 +2293,45 @@ input, select, textarea {
 		}
 
 		.icon.solid:before {
+			font-weight: 200 !important;
+		}
+
+		/* had to add this for style1 because fas */
+		.icon.solid.style5.major:before {
+			font-weight: 900 !important;
+		}
+
+		/* had to add this for style1 becasue fas */
+		.icon.solid.style3.major:before {
 			font-weight: 900 !important;
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			/* font-family: 'Font Awesome 5 Brands'; */
 		}
 
 		.icon.style1:before {
-			color: #c3e895;
+			color:#6bd4c8;
 		}
 
 		.icon.style2:before {
-			color: #8addaa;
+			color: #f5a7bc;
 		}
 
 		.icon.style3:before {
-			color: #6bd4c8;
+			color: #ddb1f4;
 		}
 
 		.icon.style4:before {
-			color: #57aed3;
+			color: #c3e895;
 		}
 
 		.icon.style5:before {
-			color: #4a87d3;
+			color: #f7b186;
 		}
 
 		.icon.style6:before {
-			color: #6b88e6;
+			color:  #f2f796;
 		}
 
 		.icon.major {
@@ -2341,7 +2351,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				/* font-family: 'Font Awesome 5 Free'; */
 				font-weight: 400;
 			}
 
