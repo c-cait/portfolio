@@ -2046,6 +2046,18 @@ input, select, textarea {
 			width: 6em;
 		}
 
+		/* add horizontal line */
+
+		.horizontal-line {
+			background: rgba(255, 255, 255, 0.5);
+			content: '';
+			display: inline-block;
+			height: 1px;
+			margin-top: 3px;
+			margin-bottom: 3px;
+			width: 12em;
+		}
+
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			margin: 0;
 		}
@@ -2585,7 +2597,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.5em;
+				font-size: 2.5em;
 			}
 
 /* Major Icons */
@@ -2927,7 +2939,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image:linear-gradient(45deg, #ffb3b3 10%, #f4b885 30%, #fae8a1 );
+		background-image:linear-gradient(45deg, #ffb3b3, #f4b885 50%, #fae8a1 95%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -3119,11 +3131,11 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 6em 0 ;
+		padding: 4em 0 4em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		background-image: linear-gradient(45deg, #ffb3b3, #f4b885 50%, #fae8a1 95%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
@@ -3488,6 +3500,7 @@ input, select, textarea {
 						#footer .copyright li:first-child {
 							margin-top: 0;
 						}
+
 
 	}
 
